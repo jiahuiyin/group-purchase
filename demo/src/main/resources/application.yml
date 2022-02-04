@@ -1,0 +1,19 @@
+server:
+  port: 9528
+
+spring:
+  application:
+    name: demo
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
