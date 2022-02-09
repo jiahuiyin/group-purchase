@@ -1,10 +1,15 @@
 server:
-  port: 8200
+  port: 9529
 
 spring:
   application:
-    name: provider
+    name: bussness_api
   cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
     consul:
       host: localhost
       port: 8500

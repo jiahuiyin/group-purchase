@@ -1,9 +1,9 @@
 server:
-  port: 9528
+  port: 9530
 
 spring:
   application:
-    name: demo
+    name: consumer_api
   cloud:
     gateway:
       discovery:
