@@ -16,6 +16,7 @@
         <module>provider</module>
         <module>consumer_api</module>
         <module>business_api</module>
+        <module>goods</module>
     </modules>
 
     <properties>
