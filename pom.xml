@@ -17,6 +17,7 @@
         <module>consumer_api</module>
         <module>business_api</module>
         <module>goods</module>
+        <module>user</module>
     </modules>
 
     <properties>

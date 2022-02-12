@@ -9,3 +9,4 @@
 *.rar
 .idea
 target/
+application-secret.yml
